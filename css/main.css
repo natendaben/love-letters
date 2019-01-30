@@ -1,4 +1,58 @@
 body{
 	font-family: 'Caveat', cursive;
+	background-color: rgba(255, 128, 128, 1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header{
+	font-size: 150%;
+}
+main{
+	width: 50%;
+	text-align: center;
+	font-size: 130%;
+}
+nav{
+	background-image: url('../img/chrome.png');
+	width: 800px;
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size: 100%;
 
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-family: 'Futura', sans-serif;
+	color: black;
+}
+.navlink{
+margin-left: 232px;
+padding: 7px 7px 7px 13px;
+background-color: rgba(235, 235, 235, 1);
+}
+#bash{
+	margin-top: 220px;
+	border-bottom: 1px solid rgba(50, 50, 50, .1);
+	padding-right: 364px;
+}
+#git{
+	border-bottom: 1px solid rgba(50, 50, 50, .1);
+	padding-right: 232px;
+}
+#github{
+	padding-right: 273px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	background-color: rgba(217, 217, 217, 1);
+}
+a:visited{
+	color: black;
+}
+.italic{
+	font-style: italic;
+	font-size: 80%;
 }
