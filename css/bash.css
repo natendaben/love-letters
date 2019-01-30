@@ -12,8 +12,11 @@ body{
 }
 nav{
 	margin-top: 2%;
+	padding: 1%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: rgba(15, 36, 77, 0.9);
+	font-size: 110%;
 }
 .navlink{
 display: flex;
@@ -25,24 +28,38 @@ margin: 5px;
 .special{
 	color: white;
 }
+header{
+	background-color: rgba(15, 36, 77, 0.9);
+	border-radius: 20px;
+	margin: 1.5%;
+	text-align: center;
+	border: 2px solid #5cc7cf;
+	padding: 0% 2% 0% 2%;
+}
 main{
 	width: 60%;
 	background-color: rgba(15, 36, 77, 0.9);
 	border-radius: 20px;
 	padding: 3%;
+	border: 3px solid #5cc7cf;
 }
 footer{
 	margin: 4% 0% 2% 0%;
+	width: 50%;
+	background-color: rgba(15, 36, 77, 0.9);
+	border-radius: 20px;
+	padding: 1%;
+	text-align: center;
+	color: white;
 }
 a{
-	border-bottom: 3px solid #081329;
+	border-bottom: 3px solid rgba(15, 36, 77, 0.9);
 	text-decoration: none;
 }
 a:visited{
 	color: white;
 }
 a:hover{
-	border-bottom: 3px solid grey;
+	border-bottom: 3px solid white;
 	transition: .5s;
-	color: grey;
 }
