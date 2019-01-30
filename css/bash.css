@@ -1,3 +1,45 @@
+body{
+	background-color: #081329;
+	color: #17CCB4;
+	font-family: "Courier", sans-serif;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+nav{
+	margin-top: 2%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.navlink{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 5px;
+
+}
 .special{
-	color: red;
+	color: white;
+}
+main{
+	width: 80%;
+	background-color: #0F234C;
+	border-radius: 20px;
+	padding: 3%;
+}
+footer{
+	margin: 4% 0% 2% 0%;
+}
+a{
+	border-bottom: 3px solid #081329;
+	text-decoration: none;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	border-bottom: 3px solid grey;
+	transition: .5s;
+	color: grey;
 }
