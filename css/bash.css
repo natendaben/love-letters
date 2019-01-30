@@ -1,5 +1,8 @@
 body{
-	background-color: #081329;
+	background-image: url('../img/bash.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 	color: #17CCB4;
 	font-family: "Courier", sans-serif;
 	font-weight: bold;
@@ -23,8 +26,8 @@ margin: 5px;
 	color: white;
 }
 main{
-	width: 80%;
-	background-color: #0F234C;
+	width: 60%;
+	background-color: rgba(15, 36, 77, 0.9);
 	border-radius: 20px;
 	padding: 3%;
 }
