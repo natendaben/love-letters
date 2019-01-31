@@ -1,3 +1,51 @@
+body{
+	background-image: url("../img/pattern.png");
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Bitter', serif;
+}
+nav{
+	background-color: #ffbdff;
+	padding: 1%;
+	margin-top: 2%;
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: white;
+
+}
+header{
+	font-family: 'Major Mono Display', monospace;
+}
 .special{
 	color: red;
+}
+main{
+	width: 60%;
+	background-image: url("../img/letter.png");
+	background-repeat: repeat-y;
+	background-size: 100%;
+	padding: 5%;
+	padding-left: 15%;
+	font-size: 120%;
+	line-height: 1.7em;
+}
+header{
+	font-size: 150%;
+}
+#pict{
+	width: 50%;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	color: white;
+}
+footer{
+	background-color: #ffbdff;
+	margin: 5% 0% 5% 0%;
+	padding: 2%;
 }
