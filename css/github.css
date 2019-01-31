@@ -13,11 +13,12 @@ nav{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	color: white;
+	color: #ff4de5;
 
 }
 header{
 	font-family: 'Major Mono Display', monospace;
+	font-size: 150%;
 }
 .special{
 	color: red;
@@ -32,9 +33,6 @@ main{
 	font-size: 120%;
 	line-height: 1.7em;
 }
-header{
-	font-size: 150%;
-}
 #pict{
 	width: 50%;
 }
@@ -42,10 +40,15 @@ a{
 	text-decoration: none;
 }
 a:visited{
+	color: #ff4de5;
+}
+a:hover{
 	color: white;
 }
 footer{
 	background-color: #ffbdff;
 	margin: 5% 0% 5% 0%;
 	padding: 2%;
+	width: 50%;
+	text-align: center;
 }
